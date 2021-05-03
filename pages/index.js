@@ -1,5 +1,5 @@
 import Image from "next/image";
-import axios from "axios";
+import axios from "../api/axios";
 import { Flex, Input, Heading, Button, Box, useToast } from "@chakra-ui/react";
 import { authorize } from "../api/sessions";
 import { useRouter } from "next/router";
